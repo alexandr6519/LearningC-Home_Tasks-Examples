@@ -5,12 +5,12 @@ double degree = Math.Log10(d: numberAbs);
 
 if (degree < 2)
 {
-    Console.WriteLine("Inputing number has no the theird digital!");
+    Console.WriteLine("Inputing number has NO the theird digital!");
 }
 else
 {
     int d = (int)Math.Pow(x: 10, y: (int)(degree) - 2);
 
     int result = (numberAbs / d) % 10;
-    Console.WriteLine($"Inputing number has the theird digital = {result}!");
+    Console.WriteLine($"The theird digital of inputing number is {result}!");
 }
