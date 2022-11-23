@@ -10,7 +10,6 @@ if (degree < 2)
 else
 {
     int d = (int)Math.Pow(x: 10, y: (int)(degree) - 2);
-
     int result = (numberAbs / d) % 10;
-    Console.WriteLine($"Inputing number has the theird digital = {result}!");
+    Console.WriteLine($"Inputing number has the theird digital is {result}!");
 }
